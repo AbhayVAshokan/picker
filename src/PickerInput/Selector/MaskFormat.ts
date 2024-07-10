@@ -1,4 +1,4 @@
-const FORMAT_KEYS = ['YYYY', 'MM', 'DD', 'HH', 'mm', 'ss', 'SSS'];
+const FORMAT_KEYS = ['YYYY', 'MM', 'DD', 'hh', 'HH', 'mm', 'ss', 'SSS', 'A'];
 
 export type FormatKey = (typeof FORMAT_KEYS)[number];
 
